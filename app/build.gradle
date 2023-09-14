@@ -9,6 +9,11 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
+    implementation  'org.springframework.boot:spring-boot-starter-web'
+	implementation  'org.apache.tomcat.embed:tomcat-embed-jasper'
+	implementation	'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation	'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api'
+	implementation	'org.glassfish.web:jakarta.servlet.jsp.jstl'
+	implementation	'mysql:mysql-connector-java:8.0.33'
 }
+
