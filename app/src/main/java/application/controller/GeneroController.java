@@ -33,9 +33,6 @@ public class GeneroController{
         generoRepo.save(genero);
 
         return "redirect:/genero/list";
-        
-         
-
 
 
     }
