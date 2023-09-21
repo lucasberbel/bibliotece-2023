@@ -10,12 +10,12 @@ import jakarta.persistence.Table;
 @Table(name="generos")
 public class Genero {
     @Id
-    @GeneratedValue (strategy=GenerationType.IDENTITY)
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private int id;
     private String nome;
 
     public int GetId(){
-        return Id;
+        return id;
     }
 
     public void setId(int Id){
@@ -26,7 +26,7 @@ public class Genero {
         return nome;
     }
 
-    public void setNome(string nome){
+    public void setNome(String nome){
         this.nome = nome;
     }
 }
