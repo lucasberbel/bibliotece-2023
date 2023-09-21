@@ -19,12 +19,15 @@
                 </tr>
                 <c:forEach var="Item" items="${generos}">
                 <tr>
-                    <td>
-                        
+                    <td>${item.id}</td>
+                    <td>${item.nome}</td> 
+                    <td>   
+                        <a href="/genero/update?id=${item.id}" class="btn btn-warning">Editar</a>
+                        <a href="/genero/delete?id=${item.id}" class="btn btn-danger">Excluir</a>
                     </td>
                 </tr>        
-                   
+               </c:forEach>    
             </table> 
-
         </div>
+    </body>
 </html>  
