@@ -26,8 +26,8 @@
                         <a href="/genero/delete?id=${item.id}" class="btn btn-danger">Excluir</a>
                     </td>
                 </tr>        
-               </c:forEach>    
+                </c:forEach>    
             </table> 
         </div>
     </body>
-</html>  
+</html>  git 
